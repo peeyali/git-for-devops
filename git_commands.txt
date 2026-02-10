@@ -12,11 +12,8 @@ git push
 git config --list
 git config --list --show-origin
 git config --global --list
-git commit --amend --author="New Name speeyush065@gmail.com" --no-edit
-git commit --amend --author="New Name <speeyush065@gmail.com>" --no-edit
 git status
-git push origin dev --force
-git config --local user.name "Peeyush"
-git config --local user.email "speeyush065@gmail.com"
+git push origin dev 
 git push origin dev --force
 git config --local --list
+git remote -v
